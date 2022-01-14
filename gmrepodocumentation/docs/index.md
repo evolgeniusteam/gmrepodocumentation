@@ -5,9 +5,13 @@
 
 ## Citation
 
-Please cite us if you find this resource useful:
+Please cite our latest publication if you find this resource useful:
 
-[Wu, S. *et al.* "GMrepo: a database of curated and consistently annotated human gut metagenomes". *Nucleic Acids Res* (2020). :octicons-link-external-16:](https://doi.org/10.1093/nar/gkz764){:target="_blank"}
+[Dai, D. *et al.* "GMrepo v2: a curated human gut microbiome database with special focus on disease markers and cross-dataset comparison". *Nucleic Acids Res* (2022). Volume 50, Issue D1, Pages D777–D784. :octicons-link-external-16:](https://doi.org/10.1093/nar/gkab1019){:target="_blank"}.
+
+### previous version(s):
+
+[Wu, S. *et al.* "GMrepo: a database of curated and consistently annotated human gut metagenomes". *Nucleic Acids Res* (2020). :octicons-link-external-16:](https://doi.org/10.1093/nar/gkz764){:target="_blank"};
 
 ## What's new
 
@@ -16,14 +20,14 @@ Please cite us if you find this resource useful:
 Added new pages:
 
 * [curated projects :octicons-link-16:](https://gmrepo.humangut.info/data/curatedprojects),
-* [phenotype comparisons :octicons-link-16:](https://gmrepo.humangut.info/phenotypes/comparisons), and 
+* [phenotype comparisons :octicons-link-16:](https://gmrepo.humangut.info/phenotypes/comparisons), and
 * [marker taxa :octicons-link-16:](https://gmrepo.humangut.info/taxon/markertaxa).
 
 ## Aims and features of <b><span style="color:darkblue">G</span><span style="color:red">M</span><span style="color:forestgreen">repo</span></b>
 
 ### Capture the full dynamics of human gut microbes
 
-With <b><span style="color:darkblue">G</span><span style="color:red">M</span><span style="color:forestgreen">repo</span></b>, 
+With <b><span style="color:darkblue">G</span><span style="color:red">M</span><span style="color:forestgreen">repo</span></b>,
 we aim to capture the full dynamics of the microbes living in the human gut, including their
 
 * abundances and prevalence,
@@ -40,7 +44,7 @@ all of which can be further stratified by using manually curated meta-data:
 
 ### Emphasize on data quality and re-usability
 
-With <b><span style="color:darkblue">G</span><span style="color:red">M</span><span style="color:forestgreen">repo</span></b>, 
+With <b><span style="color:darkblue">G</span><span style="color:red">M</span><span style="color:forestgreen">repo</span></b>,
 we emphasize on **data quality** and **re-usability** (i.e., availability of the host meta-data).
 We thus:
 
@@ -50,7 +54,7 @@ We thus:
 
 ### Make relevant information easier to find
 
-In order to further facilitate users to find data of interests, we equipped <b><span style="color:darkblue">G</span><span style="color:red">M</span><span style="color:forestgreen">repo</span></b> with 
+In order to further facilitate users to find data of interests, we equipped <b><span style="color:darkblue">G</span><span style="color:red">M</span><span style="color:forestgreen">repo</span></b> with
 [a graphical query builder (data selector) :octicons-link-16:](https://gmrepo.humangut.info/home) to help users to create complex and flexible queries with a few clicks. So far the data selector allows users to filter samples and runs by related technical meta data such as <code>experiment type (16S or Metagenomics)</code>, <code>number of sequenced reads</code>, and host- related meta data, including related phenotype (<code>disease or health</code>), <code>age</code>, <code>sex</code>, and <code>BMI (body mass index)</code>. More filters will be added in the future.
 For example, the screenshot below allows users to search for samples (runs) that:
 
