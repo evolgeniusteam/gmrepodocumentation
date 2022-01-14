@@ -1,0 +1,96 @@
+site_name: GMrepo documentation
+# site_url: https://gmrepo.humangut.info/help
+# site_url: http://gmrepo2018.local/help
+site_description: User documentation for GMrepo.
+site_author: Wei-Hua Chen
+
+# repo_url: https://github.com/balaram26/Evolview-UserGuide
+
+nav:
+    - Welcome & key features: index.md
+    - Materials and methods: 
+      - Data acquisition: materialsandmethods/dataacquisition.md
+      - Data processing & QC: materialsandmethods/dataprocessingandqc.md
+      - Disease marker identification: materialsandmethods/indepthanalyses.md
+    - Website and user interface:
+      - Website overview: websiteandUI/websiteoverview.md
+      - Disease centric pages: websiteandUI/diseasecentricpages.md
+      - Microbe centric pages: websiteandUI/microbecentricpages.md
+      - Disease marker pages: websiteandUI/diseasemarkerpages.md
+      - Project and run pages:  websiteandUI/projectandrunpages.md
+    - Database usage:
+      - Database overview: usage/databaseoverview.md
+      - Use the graphic data selector: usage/graphicdataselector.md
+      - Find a project of interests: usage/findprojects.md
+      - Find a run/sample of interests: usage/findrunandsample.md
+      - Find a microbe of interests: usage/findmicrobes.md
+      - Find a disease marker: usage/findmarkers.md
+      - Cross-project comparisons of disease markers: usage/crossprojectcomprisons.md
+      - Download data from GMrepo: usage/downloaddatafromgmrepo.md
+
+theme: 
+  name: material
+  highlightjs: true
+  language: en
+  features:
+    - navigation.tracking
+    - navigation.sections
+    - navigation.expand
+    - navigation.top
+    - toc.integrate
+    - search.highlight
+    - search.share
+    - search.suggest
+  palette:
+    - scheme: default
+      primary: indigo
+      accent: indigo
+      toggle:
+        icon: material/toggle-switch-off-outline
+        name: Switch to dark mode
+    - scheme: slate
+      primary: red
+      accent: red
+      toggle:
+        icon: material/toggle-switch
+        name: Switch to light mode
+
+markdown_extensions:
+  - admonition
+  - abbr
+  - attr_list
+  - def_list
+  - footnotes
+  - meta
+  - md_in_html
+  - toc:
+      permalink: true
+  - pymdownx.arithmatex:
+      generic: true
+  - pymdownx.betterem:
+      smart_enable: all
+  - pymdownx.caret
+  - pymdownx.details
+  - pymdownx.emoji:
+      emoji_index: !!python/name:materialx.emoji.twemoji
+      emoji_generator: !!python/name:materialx.emoji.to_svg
+  - pymdownx.highlight
+  - pymdownx.inlinehilite
+  - pymdownx.keys
+  - pymdownx.magiclink:
+      repo_url_shorthand: true
+      user: squidfunk
+      repo: mkdocs-material
+  - pymdownx.mark
+  - pymdownx.smartsymbols
+  - pymdownx.superfences:
+      custom_fences:
+        - name: mermaid
+          class: mermaid-experimental
+          format: !!python/name:pymdownx.superfences.fence_code_format
+  - pymdownx.tabbed
+  - pymdownx.tasklist:
+      custom_checkbox: true
+  - pymdownx.tilde
+  
+copyright: Copyright &copy; 2021 HUST Chen lab.
